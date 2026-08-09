@@ -2,7 +2,7 @@
   "name": "armada-color-theme",
   "displayName": "Armada Color Theme",
   "description": "Dark and Light themes based on JetBrains Fleet aesthetics, ported from Armada Core Themes for IntelliJ.",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "publisher": "SavedRest0Re",
   "icon": "icon.png",
   "license": "MIT",
