@@ -417,7 +417,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#747576"
+        "foreground": "#5C636A"
       }
     },
     {
@@ -846,7 +846,7 @@
     "string": "#086E14",
     "number": "#A31D8D",
     "comment": {
-      "foreground": "#747576",
+      "foreground": "#5C636A",
       "fontStyle": ""
     },
     "operator": "#090909",
