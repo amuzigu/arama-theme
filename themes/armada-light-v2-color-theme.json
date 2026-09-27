@@ -113,7 +113,7 @@
     "editorGroup.border": "#D2D2CD",
     "editorGroupHeader.border": "#D2D2CD",
     "editorGroupHeader.noTabsBackground": "#F1F1EE",
-    "editorGroupHeader.tabsBackground": "#F1F1EE",
+    "editorGroupHeader.tabsBackground": "#E6E6E2",
     "editorGroupHeader.tabsBorder": "#D2D2CD",
     "editorGutter.addedBackground": "#409D78",
     "editorGutter.background": "#F1F1EE",
@@ -260,6 +260,20 @@
     "minimapGutter.addedBackground": "#409D78",
     "minimapGutter.deletedBackground": "#A80F36",
     "minimapGutter.modifiedBackground": "#0870E4",
+    "modernEditorTab.activeActionBackground": "#F1F1EE",
+    "modernEditorTab.activeBackground": "#F1F1EE",
+    "modernEditorTab.activeForeground": "#090909",
+    "modernEditorTab.activeHoverActionBackground": "#F1F1EE",
+    "modernEditorTab.activeHoverBackground": "#F1F1EE",
+    "modernEditorTab.hoverActionBackground": "#E6E6E2",
+    "modernEditorTab.hoverBackground": "#E9E9E5",
+    "modernEditorTab.hoverForeground": "#090909",
+    "modernEditorTab.inactiveBackground": "#E6E6E2",
+    "modernEditorTab.selectedActionBackground": "#F1F1EE",
+    "modernTab.activeBackground": "#F1F1EE",
+    "modernTab.activeForeground": "#090909",
+    "modernTab.hoverBackground": "#E9E9E5",
+    "modernTab.hoverForeground": "#090909",
     "notificationCenterHeader.background": "#F1F1EE",
     "notificationCenterHeader.foreground": "#090909",
     "notificationLink.foreground": "#184ABE",
@@ -353,15 +367,25 @@
     "symbolIcon.stringForeground": "#0D6916",
     "symbolIcon.variableForeground": "#090909",
     "tab.activeBackground": "#F1F1EE",
-    "tab.activeBorderTop": "#0870E480",
+    "tab.activeBorder": "#F1F1EE",
+    "tab.activeBorderTop": "#0870E4",
     "tab.activeForeground": "#090909",
     "tab.activeModifiedBorder": "#090909",
     "tab.border": "#D2D2CD",
     "tab.hoverBackground": "#18191B14",
-    "tab.inactiveBackground": "#F1F1EE",
+    "tab.hoverForeground": "#090909",
+    "tab.inactiveBackground": "#E6E6E2",
     "tab.inactiveForeground": "#64635E",
     "tab.inactiveModifiedBorder": "#6A6964",
-    "tab.unfocusedActiveBorderTop": "#18191B12",
+    "tab.selectedBackground": "#F1F1EE",
+    "tab.selectedBorderTop": "#0870E4",
+    "tab.selectedForeground": "#090909",
+    "tab.unfocusedActiveBackground": "#F1F1EE",
+    "tab.unfocusedActiveBorder": "#F1F1EE",
+    "tab.unfocusedActiveBorderTop": "#6A6964",
+    "tab.unfocusedActiveForeground": "#090909",
+    "tab.unfocusedInactiveBackground": "#E6E6E2",
+    "tab.unfocusedInactiveForeground": "#6A6964",
     "terminal.ansiBlack": "#090909",
     "terminal.ansiBlue": "#0273EB",
     "terminal.ansiBrightBlack": "#494E54",
@@ -417,7 +441,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#3E3D36"
+        "foreground": "#626058"
       }
     },
     {
@@ -470,11 +494,10 @@
     },
     {
       "metadata": {
-        "description": "Keywords"
+        "description": "Storage keywords (const, let, class, function, async, public)"
       },
       "scope": [
         "keyword",
-        "keyword.control",
         "keyword.operator.new",
         "keyword.operator.expression",
         "keyword.other",
@@ -484,6 +507,22 @@
       ],
       "settings": {
         "foreground": "#10626C"
+      }
+    },
+    {
+      "metadata": {
+        "description": "Module keywords (export, import, from, require)"
+      },
+      "scope": [
+        "keyword.control.export",
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.control.require",
+        "keyword.other.import",
+        "keyword.other.export"
+      ],
+      "settings": {
+        "foreground": "#863854"
       }
     },
     {
@@ -846,7 +885,7 @@
     "string": "#0D6916",
     "number": "#94007F",
     "comment": {
-      "foreground": "#3E3D36",
+      "foreground": "#626058",
       "fontStyle": ""
     },
     "operator": "#090909",
